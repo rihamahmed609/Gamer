@@ -7,8 +7,10 @@ body{
     font-family: 'Lato', sans-serif;
 }
 nav{
-    background-color: #9376e0S;
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
+
 .nav-container{
 
     min-height: 50px;
