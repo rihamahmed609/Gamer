@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    /* border: 1px solid green; */
+    min-height: 50px;
+    display: flex;
+    width: 1400px;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo-container{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 50%;
+    
+}
+
+.logo-container img{
+    width: 100px;
+    margin-right: 20px;
+    object-fit:contain;
+}
+
+.G{
+    color: #e70874;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Work Sans;
+
+}
+.amer{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Work Sans;
+
+
+    }
+    
+
+.nav-items-container,.follow{
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.follow {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    margin:auto 0 ;
+    padding: 10px 15px;  
+
+
+}
+.icons{
+    font-size: 40px;
+    margin: 0 auto 0;
+    
+
+    
+    
+}
+
+/* nav desing end */
