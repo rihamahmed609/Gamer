@@ -1,12 +1,13 @@
-@media screen and (max-width:400px) {
+
+
+@media screen and (max-width:400px){
     .nav-container{
 
       
         flex-direction: column;
         
         
-    } 
-}
+    }
 
     .nav-items-container{
 
@@ -23,3 +24,15 @@
         width: 100%;
         margin-bottom: 10px;
     }
+    .logo-container{
+
+        flex-direction: column;
+        
+    }
+    .logo-container img{
+         width: 100%;
+    }
+}
+
+    /* nav responsive ends here  */
+
