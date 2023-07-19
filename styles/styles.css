@@ -92,9 +92,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .banner-text{
-
     width: 50%;
-
     text-align: center;
 }
 .banner-img{
@@ -154,8 +152,40 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     margin: 50px auto 0;
     min-height: 400px;
     padding: 0px 0px 20px 0px;
+    gap: 15px;
+
 }
-.single-producet{
-    border-radius: 10px;
+/* grid end */
+.new-section{
+    background-color: #ffffff;
+    min-height: 500px;
+    padding: 20px 0;
+
+}
+.new-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    /* border: 1px solid rgb(238, 255, 0); */
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+.new-img{
+    width: 50%;
+    /* border: 1px solid  */
+    /* red; */
 }
 
+
+.new-img-snd{
+    position: relative;
+    width: 50%;
+    bottom: 170px;
+    left: 450px;
+
+}
+.new-text{
+    width: 50%;
+    text-align: center;
+    /* border: 1px solid aqua; */
+}

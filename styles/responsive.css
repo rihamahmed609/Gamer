@@ -20,9 +20,9 @@
         margin-top: 20px;
     }
 
-    .nav-items-container .login-btn{
+    .nav-items-container{
         width: 100%;
-        margin-bottom: 10px;
+    
     }
     
     .logo-container img{
@@ -47,4 +47,19 @@
     }
 
     
+.grid-container{
+    
+    grid-template-columns:1fr }
+
+
+.banner-img img{
+    width: 100%;
+}
+.new-container{
+    flex-direction: column;
+}
+.new-text .new-img-snd{
+    width: 100%;}
+    
+
 }
