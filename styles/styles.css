@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Work+Sans:wght@700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -38,14 +38,14 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .G-section{
-    color: #FF42A5;
+    color: rgb(250, 95, 206);
     font-size: 700;
     font-family: Work Sans;
     font-size: 45px;
     font-weight: 700;
 
 }
-.amer{color: #0B0223;
+.amer{color: #3C354F;
     font-family: Work Sans;
     font-size: 45px;
     font-weight: 700;
@@ -78,3 +78,79 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 /* navbar ends */
+.banner-container{
+
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    background-color:transparent;
+    
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.banner-text{
+
+    width: 50%;
+
+    text-align: center;
+}
+.banner-img{
+ 
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+
+    border-radius: 10px;
+    /* height: 100%; */
+    object-fit: cover;
+}
+.banner-text p{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+.banner-text h2{
+    margin-top: 100px;
+}
+.banner-text h1 {
+    background-image: linear-gradient(to bottom,#9376e0,#e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.banner-text p{
+    font-size: 15px;
+    /* font-family: 'Dancing Script', cursive; */
+
+}
+
+
+
+
+
+
+.banner-button{
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 20px;
+    /* border: 2px solid #9376e0; */
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.banner-button-S{
+    background-color: #9376e0;
+    padding: 10px 20px;
+    /* border: 2px solid #9376e0; */
+    margin-right: 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+
+/* banner section design ends here */

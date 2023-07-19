@@ -24,15 +24,25 @@
         width: 100%;
         margin-bottom: 10px;
     }
-    .logo-container{
-
-        flex-direction: column;
-        
-    }
+    
     .logo-container img{
          width: 100%;
     }
+    .banner-img,.banner-text{
+ 
+        width: 100%;
+    }
+    .banner-text p{
+        display: flex;
+        
+        margin-left: 100px;
+    }
+.banner-container{
+
+    flex-direction: column;
+
 }
-
-    /* nav responsive ends here  */
-
+.banner-button{
+    margin-right: none;
+    }
+}
