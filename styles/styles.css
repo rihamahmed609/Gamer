@@ -78,6 +78,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 /* navbar ends */
+
 .banner-container{
 
     margin: 50px auto 0;
@@ -101,9 +102,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .banner-img img{
     width: 100%;
-
     border-radius: 10px;
-    /* height: 100%; */
     object-fit: cover;
 }
 .banner-text p{
@@ -122,7 +121,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .banner-text p{
     font-size: 15px;
-    /* font-family: 'Dancing Script', cursive; */
+   
 
 }
 .banner-button{
@@ -136,7 +135,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 .banner-button-S{
     background-color: #51bef1;
     padding: 10px 20px;
-    /* border: 2px solid #9376e0; */
+   
     margin-right: 20px;
     border-radius: 30px;
     color: white;
@@ -156,6 +155,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 }
 /* grid end */
+
 .new-section{
     background-color: #ffffff;
     min-height: 500px;
@@ -165,15 +165,12 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 .new-container{
     max-width: 1400px;
     margin: 0 auto;
-    /* border: 1px solid rgb(238, 255, 0); */
     min-height: 200px;
     display: flex;
     align-items: center;
 }
 .new-img{
     width: 50%;
-    /* border: 1px solid  */
-    /* red; */
 }
 
 
@@ -187,5 +184,6 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 .new-text{
     width: 50%;
     text-align: center;
-    /* border: 1px solid aqua; */
+   
+
 }

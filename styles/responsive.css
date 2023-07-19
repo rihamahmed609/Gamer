@@ -58,8 +58,11 @@
 .new-container{
     flex-direction: column;
 }
-.new-text .new-img-snd{
+.new-text{
     width: 100%;}
+    .new-img{
+        width: 100%;
+    }
     
 
 }
