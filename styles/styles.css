@@ -113,10 +113,9 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     align-items: center;
     margin-left: 250px;
 }
-.banner-text h2{
-    margin-top: 100px;
-}
-.banner-text h1 {
+
+
+.banner-text h1 ,.funny{
     background-image: linear-gradient(to bottom,#9376e0,#e893cf);
     color: transparent;
     -webkit-background-clip: text;
@@ -128,23 +127,16 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     /* font-family: 'Dancing Script', cursive; */
 
 }
-
-
-
-
-
-
 .banner-button{
-    background-color: palevioletred;
+    background-color: rgb(236, 127, 209);
     color: white;
     padding: 10px 20px;
-    /* border: 2px solid #9376e0; */
     margin-right: 20px;
     margin-top: 30px;
     border-radius: 30px;
 }
 .banner-button-S{
-    background-color: #9376e0;
+    background-color: #51bef1;
     padding: 10px 20px;
     /* border: 2px solid #9376e0; */
     margin-right: 20px;
@@ -154,3 +146,16 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 
 /* banner section design ends here */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1400px;
+    margin: 50px auto 0;
+    min-height: 400px;
+    padding: 0px 0px 20px 0px;
+}
+.single-producet{
+    border-radius: 10px;
+}
+
